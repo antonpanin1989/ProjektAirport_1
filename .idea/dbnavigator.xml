@@ -23,11 +23,7 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
-    <loaded-nodes>
-      <connection connection-id="cce4dc5f-2671-4c43-b77f-8db41e9ca2f6">
-        <schema name="main" object-types="table" />
-      </connection>
-    </loaded-nodes>
+    <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="cce4dc5f-2671-4c43-b77f-8db41e9ca2f6">
@@ -45,9 +41,9 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.FileConnectionMappingManager">
-    <mapping file-url="file://$PROJECT_DIR$/aiplane1.sql" connection-id="219d7995-7c74-4f78-ad34-3e523de95442" current-schema="main" />
-    <mapping file-url="file://$PROJECT_DIR$/arrival.sql" connection-id="219d7995-7c74-4f78-ad34-3e523de95442" current-schema="main" />
     <mapping file-url="file://$PROJECT_DIR$/depart.sql" connection-id="cce4dc5f-2671-4c43-b77f-8db41e9ca2f6" current-schema="main" />
+    <mapping file-url="file://$PROJECT_DIR$/arrival.sql" connection-id="219d7995-7c74-4f78-ad34-3e523de95442" current-schema="main" />
+    <mapping file-url="file://$PROJECT_DIR$/aiplane1.sql" connection-id="219d7995-7c74-4f78-ad34-3e523de95442" current-schema="main" />
     <mapping file-url="file://$PROJECT_DIR$/aiplane2.sql" connection-id="219d7995-7c74-4f78-ad34-3e523de95442" current-schema="main" />
   </component>
   <component name="DBNavigator.Project.MethodExecutionManager">
@@ -278,23 +274,12 @@
           <content-type name="DTD" enabled="true" />
           <content-type name="HTML" enabled="true" />
           <content-type name="XHTML" enabled="true" />
-          <content-type name="CSS" enabled="true" />
           <content-type name="Java" enabled="true" />
           <content-type name="SQL" enabled="true" />
           <content-type name="PL/SQL" enabled="true" />
-          <content-type name="JPA QL" enabled="true" />
-          <content-type name="JavaScript" enabled="true" />
-          <content-type name="JSP" enabled="true" />
-          <content-type name="JSPx" enabled="true" />
           <content-type name="Groovy" enabled="true" />
-          <content-type name="FTL" enabled="true" />
-          <content-type name="TML" enabled="true" />
-          <content-type name="GSP" enabled="true" />
-          <content-type name="ASP" enabled="true" />
-          <content-type name="VTL" enabled="true" />
           <content-type name="AIDL" enabled="true" />
           <content-type name="YAML" enabled="true" />
-          <content-type name="Flex" enabled="true" />
           <content-type name="Manifest" enabled="true" />
         </content-types>
       </qualified-text-editor>
