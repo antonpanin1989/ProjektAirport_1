@@ -1,0 +1,43 @@
+group 'com.company.airport'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.1.RELEASE")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+springBoot {
+    mainClass = 'com.company.airport.Application'
+}
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter")
+    compile("org.springframework.boot:spring-boot-devtools")
+    compile("org.springframework.data:spring-data-jpa")
+
+    compile 'org.hibernate:hibernate-core:5.2.6.Final'
+    compile 'mysql:mysql-connector-java:6.0.5'
+
+    compile group: 'com.intellij', name: 'forms_rt', version: '7.0.3'
+
+    compile group: 'org.hibernate.dialect', name: 'sqlite-dialect', version: '0.1.0'
+
+
+    testCompile("junit:junit")
+}
